@@ -1,5 +1,14 @@
 Nztung über Docker & API für Modellverprobung
 
+Vorgehen: 
+Einbindung in Web-Service 
+	- Modell mit pickle gespeichert
+  - Notwendige Requirements speichern
+	- API erstellt: FastAPI-Endpinkt erstellt um neue Eingaben entgegen zu nehmen und Vorhersagen zu berechnen
+	- Docker-Container bauen: Anwendung in Docker Container verpackt um Bereitstellung zu ermöglichen 
+  - Testen über Swagger UI
+
+
 # Starting Docker
 
 Führe diese zwei Befehle aus, um einen Docker container zu erstellen:
